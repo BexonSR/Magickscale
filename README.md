@@ -1,45 +1,102 @@
 # MagickScale
 
-MagickScale is a powerful, AI-driven offline application designed for enhancing and processing images. It bundles upscaling, background removal (watermark/logo removal), slicing for Steam artwork, overlay generation, format conversion, and more, all with an interactive UI.
+> Status: Beta v1.0
+
+MagickScale is an offline desktop image processing toolkit built for creators, designers, and everyday users. It combines AI-powered enhancement tools with practical image utilities such as slicing, merging, conversion, overlays, and experimental watermark removal, all accessible through a modern and easy-to-use interface.
+
+**Works entirely offline. No cloud uploads, accounts, or subscriptions required.**
 
 ## Features
-* **AI Upscaler**: Harnesses the power of Real-ESRGAN to dramatically increase image resolution (up to 16x) with high detail.
-* **Image Slicer**: Specialized slicing algorithms, including a native Steam Artwork template generator to easily create panoramic profile showcases.
-* **Logo/Watermark Remover**: Cleanly remove watermarks (including Gemini visible watermarks) using math-based reverse alpha-blending and other techniques.
-* **Image Merger**: Easily combine images vertically, horizontally, or in custom grid layouts.
-* **Image Overlay**: Quickly brand images with watermarks or logos with an instant live preview.
-* **Format Converter**: Batch convert images between PNG, JPG, WebP, AVIF, and more with quality sliders.
+
+### AI Upscaler
+
+Enhance image quality and increase resolution using Real-ESRGAN. Supports multiple AI models and scaling options for photos, artwork, anime, and digital illustrations.
+
+### Image Slicer
+
+Split images into custom grids or create Steam Artwork Showcase layouts with precise slicing controls.
+
+### Experimental Watermark & Logo Removal
+
+Attempt to remove logos, watermarks, and unwanted image elements using reverse alpha-blending and image reconstruction techniques. Results may vary depending on image complexity.
+
+### Image Merger
+
+Combine images vertically, horizontally, or in custom grid layouts with flexible output settings.
+
+### Image Overlay
+
+Add logos, watermarks, or custom overlays to images with live preview support.
+
+### Format Converter
+
+Convert images between PNG, JPG, JPEG, WebP, AVIF, BMP, and other popular formats with adjustable quality settings.
 
 ## Prerequisites
-* **Python 3.8+** (for running from source on Linux/macOS)
-* **ImageMagick** (required for Slicer, Merger, Overlay, Converter, and Logo Remover)
 
-### Installing ImageMagick
-- **Windows**: [Download ImageMagick for Windows](https://imagemagick.org/script/download.php#windows)
-- **Linux (Ubuntu/Debian)**: `sudo apt install imagemagick`
-- **macOS**: `brew install imagemagick`
+### Windows
 
-## Running on Windows
-If you downloaded the `.exe` portable release:
-1. Double click `MagickScale.exe`.
-2. The UI will automatically launch in your web browser.
+If you downloaded the portable release:
 
-## Running on Linux / macOS (From Source)
-1. Ensure you have Python and ImageMagick installed.
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the application:
-   ```bash
-   ./run.sh
-   ```
-   Or manually:
-   ```bash
-   python app.py
-   ```
+1. Install ImageMagick.
+2. Launch `MagickScale.exe`.
+3. The interface will automatically open in your default web browser.
+
+### Linux / macOS
+
+Requirements:
+
+* Python 3.8+
+* ImageMagick
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+./run.sh
+```
+
+Or:
+
+```bash
+python app.py
+```
+
+## Installing ImageMagick
+
+### Windows
+
+Download and install ImageMagick from:
+
+https://imagemagick.org/script/download.php#windows
+
+During installation, enable:
+
+* Add application directory to your system PATH
+
+### Ubuntu / Debian
+
+```bash
+sudo apt install imagemagick
+```
+
+### macOS
+
+```bash
+brew install imagemagick
+```
+
+## Screenshot
+
+Add application screenshots here.
 
 ## License
-Released under the GNU General Public License v3.0 (GPL-3.0). See `LICENSE` for details.
 
-© 2026 Senila R.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+© 2026 Senila Ranvin
