@@ -1,15 +1,21 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 
-# PyInstaller
+# Virtual environments
+venv/
+.venv/
+
+# PyInstaller output
 build/
 dist/
-*.spec
 
-# Temp and caches
-models/
-watermarks/
+# Logs
 *.log
+
+# Archives
 *.zip
+
+# OS files
+.DS_Store
+Thumbs.db
