@@ -1,4 +1,4 @@
-# MagickScale \n
+# MagickScale 
 
 
 <p align='center'>
@@ -37,7 +37,7 @@ Add logos, watermarks, or custom overlays to images with live preview support.
 
 Convert images between PNG, JPG, JPEG, WebP, AVIF, BMP, and other popular formats with adjustable quality settings.
 
-### Coustom Models /n
+### Coustom Models 
 
 <p align='left'>
    <img src="images/Screenshot%20(415).png" width="80%">
