@@ -1,7 +1,7 @@
 # MagickScale
 
 <p align='center'>
-   <img src="images/Screenshot%20(417).png" width="10%">
+   <img src="images/Screenshot%20(417).png" width="100%">
 </p>
 
 > Status: Beta v1.0
