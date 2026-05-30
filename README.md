@@ -1,5 +1,9 @@
 # MagickScale
 
+<p align='center'>
+   <img src="images/Screenshot%20(417).png" width="10%">
+</p>
+
 > Status: Beta v1.0
 
 MagickScale is an offline desktop image processing toolkit built for creators, designers, and everyday users. It combines AI-powered enhancement tools with practical image utilities such as slicing, merging, conversion, overlays, and experimental watermark removal, all accessible through a modern and easy-to-use interface.
