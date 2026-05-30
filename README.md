@@ -36,7 +36,12 @@ Add logos, watermarks, or custom overlays to images with live preview support.
 
 Convert images between PNG, JPG, JPEG, WebP, AVIF, BMP, and other popular formats with adjustable quality settings.
 
-#Coustom Models 
+### Coustom Models 
+
+<p align='left'>
+   <img src="images/Screenshot%20(415).png" width="80%">
+</p>
+
 https://github.com/upscayl/custom-models use this link. after downloading it you must put all .bin and .param files in this path:-bin/realesrgan/models/
 Ex:- bin/realesrgan/models/
 
