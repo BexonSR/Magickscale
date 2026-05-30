@@ -55,7 +55,7 @@ Ex:-
 
 If you downloaded the portable release:
 
-1. Install ImageMagick.
+1. Install ImageMagick. (i added popup that automatically detect state of imagemagik and asks for install or not it will work. maybe. somehow it worked for me) 
 2. Launch `MagickScale.exe`.
 3. The interface will automatically open in your default web browser.
 
