@@ -9,7 +9,7 @@
 
 MagickScale is an offline desktop image processing toolkit built for creators, designers, and everyday users. It combines AI-powered enhancement tools with practical image utilities such as slicing, merging, conversion, overlays, and experimental watermark removal, all accessible through a modern and easy-to-use interface.
 
-**Works entirely offline. No cloud uploads, accounts, or subscriptions required.**
+**Works entirely offline. No cloud uploads, accounts, or subscriptions required.** however for fresh install you will ask for to allow download imagemagick,engine and coustom models.
 
 ## Features
 
