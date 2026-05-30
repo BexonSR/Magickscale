@@ -44,7 +44,10 @@ Convert images between PNG, JPG, JPEG, WebP, AVIF, BMP, and other popular format
 </p>
 
 https://github.com/upscayl/custom-models use this link. after downloading it you must put all .bin and .param files in this path:-bin/realesrgan/models/
-Ex:- bin/realesrgan/models/
+
+Ex:-
+> ~/Magickscale/bin/realesrgan/models/trump.bin
+> ~/Magickscale/bin/realesrgan/models/trump.param
 
 ## Prerequisites
 
