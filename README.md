@@ -1,4 +1,4 @@
-# MagickScale /n
+# MagickScale \n
 
 
 <p align='center'>
