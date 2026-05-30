@@ -100,16 +100,15 @@ brew install imagemagick
 
 ## Screenshot
 <p align="center">
-  <img src="images/Screenshot%20(417).png" width="120">
-  <img src="images/Screenshot%20(418).png" width="120">
-  <img src="images/Screenshot%20(419).png" width="120">
-  <img src="images/Screenshot%20(420).png" width="120">
-  <img src="images/Screenshot%20(421).png" width="120">
-  <img src="images/Screenshot%20(422).png" width="120">
-  <img src="images/Screenshot%20(423).png" width="120">
+  <img src="images/Screenshot%20(417).png" width="140">
+  <img src="images/Screenshot%20(418).png" width="140">
+  <img src="images/Screenshot%20(419).png" width="140">
+  <img src="images/Screenshot%20(420).png" width="140">
+  <img src="images/Screenshot%20(421).png" width="140">
+  <img src="images/Screenshot%20(422).png" width="140">
+  <img src="images/Screenshot%20(423).png" width="140">
 </p>
 
-Add application screenshots here.
 ## Security
 
 The release executable has been scanned with VirusTotal.
@@ -118,6 +117,10 @@ VirusTotal Report:
 https://www.virustotal.com/gui/file/6da81703556dfb85b6660d14c085a3dfdcdada85d49eed2d3230c9fc5d041ccc?nocache=1
 Please note that PyInstaller-packed executables occasionally trigger false positives from some antivirus vendors.[4/71]
 * usually excutable that opens website got this warnings idk why. you can chek youself. all codes are here.
+<p align='left'>
+   <img src="images/Screenshot%20(416).png" width="160">
+</p>
+
 
 ## License
 
