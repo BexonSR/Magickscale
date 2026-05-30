@@ -32,6 +32,10 @@ Add logos, watermarks, or custom overlays to images with live preview support.
 
 Convert images between PNG, JPG, JPEG, WebP, AVIF, BMP, and other popular formats with adjustable quality settings.
 
+#Coustom Models 
+https://github.com/upscayl/custom-models use this link. after downloading it you must put all .bin and .param files in this path:-bin/realesrgan/models/
+Ex:- bin/realesrgan/models/
+
 ## Prerequisites
 
 ### Windows
@@ -52,13 +56,16 @@ Requirements:
 Install dependencies:
 
 ```bash
+cd ~
+git clone https://github.com/BexonSR/Magickscale
+cd Magickscale
 pip install -r requirements.txt
 ```
 
 Run the application:
 
 ```bash
-./run.sh
+./run.sh #idk why i create this but anyway you can use just python app.py
 ```
 
 Or:
@@ -92,8 +99,25 @@ brew install imagemagick
 ```
 
 ## Screenshot
+<p align="center">
+  <img src="images/Screenshot%20(417).png" width="120">
+  <img src="images/Screenshot%20(418).png" width="120">
+  <img src="images/Screenshot%20(419).png" width="120">
+  <img src="images/Screenshot%20(420).png" width="120">
+  <img src="images/Screenshot%20(421).png" width="120">
+  <img src="images/Screenshot%20(422).png" width="120">
+  <img src="images/Screenshot%20(423).png" width="120">
+</p>
 
 Add application screenshots here.
+## Security
+
+The release executable has been scanned with VirusTotal.
+
+VirusTotal Report:
+https://www.virustotal.com/gui/file/6da81703556dfb85b6660d14c085a3dfdcdada85d49eed2d3230c9fc5d041ccc?nocache=1
+Please note that PyInstaller-packed executables occasionally trigger false positives from some antivirus vendors.[4/71]
+* usually excutable that opens website got this warnings idk why. you can chek youself. all codes are here.
 
 ## License
 
