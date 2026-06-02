@@ -1,7 +1,7 @@
 # MagickScale
 
 <p align="center">
-  <img src="images/Screenshot%20(489)_upscaled_4k.png" width="100%">
+  <img src="image/Screenshot%20(489)_upscaled_4k.png" width="100%">
 </p>
 
 <p align="center">
@@ -231,10 +231,10 @@ On Linux, the application automatically downloads the compatible Real-ESRGAN bin
 # Screenshots
 
 <p align="center">
-  <img src="images/Screenshot%20(480)_upscaled_4k.png" width="140">
-  <img src="images/Screenshot%20(481)_upscaled_4k.png" width="140">
-  <img src="images/Screenshot%20(482)_upscaled_4k.png" width="140">
-  <img src="images/Screenshot%20(483)_upscaled_4k.png" width="140">
+  <img src="image/Screenshot%20(480)_upscaled_4k.png" width="140">
+  <img src="image/Screenshot%20(481)_upscaled_4k.png" width="140">
+  <img src="image/Screenshot%20(482)_upscaled_4k.png" width="140">
+  <img src="image/Screenshot%20(483)_upscaled_4k.png" width="140">
 </p>
 
 ---
