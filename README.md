@@ -178,7 +178,7 @@ chmod +x setup.sh
 ---
 
 ## macOS
-
+(i have zero idea.but give a try)
 Install ImageMagick:
 
 ```bash
