@@ -21,7 +21,11 @@ MagickScale is an offline desktop image processing toolkit designed for creators
 Unlike many online tools, MagickScale runs entirely on your machine. No accounts, subscriptions, or cloud uploads are required.
 
 ## Demo
-<video src="https://streamable.com/xlkwr1" ></video>
+<p align="center">
+  <a href="https://streamable.com/xlkwr1">
+    <img src="image/Screenshot%20(489)_upscaled_4k_converted.webp" width="100%">
+  </a>
+</p>
 
 ## Features
 
