@@ -1,7 +1,7 @@
 # MagickScale
 
 <p align="center">
-  <img src="image/magicscale.png" width="100%">
+  <img src="image/magickscale.png" width="100%">
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ MagickScale is an offline desktop image processing toolkit designed for creators
 Unlike many online tools, MagickScale runs entirely on your machine. No accounts, subscriptions, or cloud uploads are required.
 
 ## Demo
-<vid src='image/video_3x.mp4' height 80%></vid>
+<video src="demo.mp4" width="100%" controls></video>
 
 ## Features
 
