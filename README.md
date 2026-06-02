@@ -137,12 +137,7 @@ Thats it, there you go..! (Currently only tested in Windows 11.But it should wor
 ---
 
 ## Linux 
-(Didn't tesed on These platforms yet. But it should work.
-
-
-
-
-maybe)
+(Tested on kali-Ai image upscaling fails)
 
 ### Requirements
 
@@ -174,23 +169,6 @@ cd MagickScale
 chmod +x setup.sh
 ./setup.sh
 ```
----
-
-## macOS
-(i have zero idea.but give a try)
-Install ImageMagick:
-
-```bash
-brew install imagemagick
-```
-
-Run:
-
-```bash
-pip install -r requirements.txt
-python app.py
-```
-
 ---
 
 # First Launch
