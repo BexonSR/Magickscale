@@ -1,7 +1,7 @@
 # MagickScale
 
 <p align="center">
-  <img src="images/Screenshot%20(417).png" width="100%">
+  <img src="images/Screenshot (489)_upscaled_4k.png" width="100%">
 </p>
 
 <p align="center">
