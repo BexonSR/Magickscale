@@ -23,7 +23,7 @@ Unlike many online tools, MagickScale runs entirely on your machine. No accounts
 ## Demo
 <p align="center">
   <a href="https://streamable.com/xlkwr1">
-    <img src="image/Screenshot%20(489)_upscaled_4k_converted.webp" width="100%">
+    <img src="image/Screenshot%20(489)_upscaled_4k_converted.webp" width="30%">
   </a>
 </p>
 
