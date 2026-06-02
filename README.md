@@ -14,7 +14,7 @@
 
 ---
 
-> **Status:** Beta v1.0
+> **Status:** Beta v1.0.0
 
 MagickScale is an offline desktop image processing toolkit designed for creators, designers, artists, and everyday users. It combines AI-powered image enhancement with practical image utilities inside a modern desktop interface.
 
@@ -132,25 +132,18 @@ You can also configure an external models directory from the Settings page.
 ### Portable Release
 
 1. Download the latest release.
-2. Launch `MagickScale.exe`.
-3. If ImageMagick is missing, MagickScale will automatically detect it and offer installation instructions.
-4. The application will open automatically.
-
-### ImageMagick
-
-Download:
-
-https://imagemagick.org/script/download.php#windows
-
-During installation enable:
-
-```text
-Add application directory to your system PATH
-```
+2. Launch `MagickScale_setup-v###.exe`.
+Thats it, there you go..! (Currently only tested in Windows 11.But it should work fine in windows 10 too..)
 
 ---
 
-## Linux
+## Linux 
+(Didn't tesed on These platforms yet. But it should work.
+
+
+
+
+maybe)
 
 ### Requirements
 
