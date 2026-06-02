@@ -147,27 +147,9 @@ maybe)
 
 ### Requirements
 
-* Python 3.8+
-* ImageMagick
+* Python 3.8+ (Automatically installing via setup.sh)
+* ImageMagick (Automatically installing via setup.sh)
 
-### Ubuntu / Debian
-
-```bash
-sudo apt update
-sudo apt install imagemagick
-```
-
-### Fedora
-
-```bash
-sudo dnf install ImageMagick
-```
-
-### Arch Linux
-
-```bash
-sudo pacman -S imagemagick
-```
 
 ### Optional Native Window Support
 
@@ -190,17 +172,9 @@ If unavailable, MagickScale automatically falls back to browser mode.
 ```bash
 git clone https://github.com/BexonSR/MagickScale
 cd MagickScale
-
-pip install -r requirements.txt
-python app.py
+chmod +x setup.sh
+./setup.sh
 ```
-
-Or:
-
-```bash
-./run.sh
-```
-
 ---
 
 ## macOS
