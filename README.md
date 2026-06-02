@@ -137,7 +137,7 @@ Thats it, there you go..! (Currently only tested in Windows 11.But it should wor
 ---
 
 ## Linux 
-(Tested on kali-Ai image upscaling fails)
+### (Tested on kali. Ai image upscaling Dont work yet)
 
 ### Requirements
 
