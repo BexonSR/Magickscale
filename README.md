@@ -1,117 +1,242 @@
-# MagickScale 
+# MagickScale
 
-
-<p align='center'>
-   <img src="images/Screenshot%20(417).png" width="100%">
+<p align="center">
+  <img src="images/Screenshot%20(417).png" width="100%">
 </p>
 
-> Status: Beta v1.0
+<p align="center">
+  <strong>Offline AI-Powered Image Suite</strong>
+</p>
 
-MagickScale is an offline desktop image processing toolkit built for creators, designers, and everyday users. It combines AI-powered enhancement tools with practical image utilities such as slicing, merging, conversion, overlays, and experimental watermark removal, all accessible through a modern and easy-to-use interface.
+<p align="center">
+  AI Upscaling • Downscaling • Watermark Removal • Image Slicing • Merging • Conversion • Overlays
+</p>
 
-**Works entirely offline. No cloud uploads, accounts, or subscriptions required.** however for fresh install you will ask for to allow download imagemagick,engine and coustom models.
+---
+
+> **Status:** Beta v1.0
+
+MagickScale is an offline desktop image processing toolkit designed for creators, designers, artists, and everyday users. It combines AI-powered image enhancement with practical image utilities inside a modern desktop interface.
+
+Unlike many online tools, MagickScale runs entirely on your machine. No accounts, subscriptions, or cloud uploads are required.
 
 ## Features
 
 ### AI Upscaler
 
-Enhance image quality and increase resolution using Real-ESRGAN. Supports multiple AI models and scaling options for photos, artwork, anime, and digital illustrations.
+Enhance image quality and increase resolution using Real-ESRGAN.
 
-### Image Slicer
+* Multiple AI models
+* Anime support
+* Artwork support
+* Photo enhancement
+* Batch processing
+* Custom model support
 
-Split images into custom grids or create Steam Artwork Showcase layouts with precise slicing controls.
+### Downscaler
+
+Reduce image resolution while preserving quality.
+
+* 4K presets
+* Custom resolutions
+* Multiple resampling filters
+* Batch processing
+* GPU acceleration support
 
 ### Experimental Watermark & Logo Removal
 
-Attempt to remove logos, watermarks, and unwanted image elements using reverse alpha-blending and image reconstruction techniques. Results may vary depending on image complexity.
+Attempts to remove:
+
+* Watermarks
+* Logos
+* Embedded image marks
+
+Results vary depending on image complexity and watermark placement.
+
+### Metadata Remover
+
+Remove metadata from images for privacy and cleaner file distribution.
+
+### Image Slicer
+
+Split images into:
+
+* Custom grids
+* Steam Artwork Showcase layouts
+* Equal sections
+* Custom slice dimensions
 
 ### Image Merger
 
-Combine images vertically, horizontally, or in custom grid layouts with flexible output settings.
+Combine multiple images:
+
+* Horizontally
+* Vertically
+* Grid layouts
 
 ### Image Overlay
 
-Add logos, watermarks, or custom overlays to images with live preview support.
+Apply:
+
+* Logos
+* Watermarks
+* Branding overlays
+* Custom graphics
 
 ### Format Converter
 
-Convert images between PNG, JPG, JPEG, WebP, AVIF, BMP, and other popular formats with adjustable quality settings.
+Convert between popular image formats:
 
-## Coustom Models 
+* PNG
+* JPG
+* JPEG
+* WebP
+* AVIF
+* BMP
 
-<br><p align='left'>
-   <img src="images/Screenshot%20(415).png" width="80%">
-</p>
+and more.
 
-https://github.com/upscayl/custom-models use this link. after downloading it you must put all .bin and .param files in this path:-bin/realesrgan/models/
+### Video Processor
 
-Ex:-
-> ~/Magickscale/bin/realesrgan/models/trump.bin
-> ~/Magickscale/bin/realesrgan/models/trump.param
+Basic video processing tools integrated into the suite.
 
-## Prerequisites
+### Custom AI Models
 
-### Windows
+Supports external Real-ESRGAN models.
 
-If you downloaded the portable release:
+Download custom models:
 
-1. Install ImageMagick. (i added popup that automatically detect state of imagemagik and asks for install or not it will work. maybe. somehow it worked for me) 
+https://github.com/upscayl/custom-models
+
+Place `.param` and `.bin` files inside:
+
+```text
+bin/realesrgan/models/
+```
+
+Example:
+
+```text
+bin/realesrgan/models/my_model.param
+bin/realesrgan/models/my_model.bin
+```
+
+You can also configure an external models directory from the Settings page.
+
+---
+
+# Installation
+
+## Windows
+
+### Portable Release
+
+1. Download the latest release.
 2. Launch `MagickScale.exe`.
-3. The interface will automatically open in your default web browser.
+3. If ImageMagick is missing, MagickScale will automatically detect it and offer installation instructions.
+4. The application will open automatically.
 
-### Linux / macOS
+### ImageMagick
 
-Requirements:
+Download:
+
+https://imagemagick.org/script/download.php#windows
+
+During installation enable:
+
+```text
+Add application directory to your system PATH
+```
+
+---
+
+## Linux
+
+### Requirements
 
 * Python 3.8+
 * ImageMagick
 
-Install dependencies:
+### Ubuntu / Debian
 
 ```bash
-cd ~
-git clone https://github.com/BexonSR/Magickscale
-cd Magickscale
-pip install -r requirements.txt
+sudo apt update
+sudo apt install imagemagick
 ```
 
-Run the application:
+### Fedora
 
 ```bash
-./run.sh #idk why i create this but anyway you can use just python app.py
+sudo dnf install ImageMagick
+```
+
+### Arch Linux
+
+```bash
+sudo pacman -S imagemagick
+```
+
+### Optional Native Window Support
+
+Ubuntu / Debian:
+
+```bash
+sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-3.0 gir1.2-webkit2-4.0
+```
+
+Arch Linux:
+
+```bash
+sudo pacman -S python-gobject webkit2gtk
+```
+
+If unavailable, MagickScale automatically falls back to browser mode.
+
+### Run
+
+```bash
+git clone https://github.com/BexonSR/MagickScale
+cd MagickScale
+
+pip install -r requirements.txt
+python app.py
 ```
 
 Or:
 
 ```bash
-python app.py
+./run.sh
 ```
 
-## Installing ImageMagick
+---
 
-### Windows
+## macOS
 
-Download and install ImageMagick from:
-
-https://imagemagick.org/script/download.php#windows
-
-During installation, enable:
-
-* Add application directory to your system PATH
-
-### Ubuntu / Debian
-
-```bash
-sudo apt install imagemagick
-```
-
-### macOS
+Install ImageMagick:
 
 ```bash
 brew install imagemagick
 ```
 
-## Screenshot
+Run:
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+---
+
+# First Launch
+
+During the first launch, MagickScale may download required AI components automatically.
+
+On Linux, the application automatically downloads the compatible Real-ESRGAN binary and configures it for use.
+
+---
+
+# Screenshots
+
 <p align="center">
   <img src="images/Screenshot%20(417).png" width="140">
   <img src="images/Screenshot%20(418).png" width="140">
@@ -122,21 +247,50 @@ brew install imagemagick
   <img src="images/Screenshot%20(423).png" width="140">
 </p>
 
-## Security
+---
 
-The release executable has been scanned with VirusTotal.
+# Privacy
+
+MagickScale processes images locally on your device.
+
+Your files are not uploaded to external servers.
+
+---
+
+# Security
+
+The Windows release has been scanned using VirusTotal.
 
 VirusTotal Report:
-https://www.virustotal.com/gui/file/6da81703556dfb85b6660d14c085a3dfdcdada85d49eed2d3230c9fc5d041ccc?nocache=1
-Please note that PyInstaller-packed executables occasionally trigger false positives from some antivirus vendors.[4/71]
-* usually excutable that opens website got this warnings idk why. you can chek youself. all codes are here.
-<p align='left'>
-   <img src="images/Screenshot%20(416).png" width="160">
+
+https://www.virustotal.com/gui/file/6da81703556dfb85b6660d14c085a3dfdcdada85d49eed2d3230c9fc5d041ccc
+
+PyInstaller-based applications occasionally trigger false positives because they bundle Python runtimes and may launch local interfaces.
+
+Users are encouraged to inspect both the VirusTotal report and the source code.
+
+<p align="left">
+  <img src="images/Screenshot%20(416).png" width="180">
 </p>
 
+---
 
-## License
+# Roadmap
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+Future improvements may include:
+
+* Additional AI models
+* Faster processing pipeline
+* Advanced video tools
+* Additional image editing utilities
+* More export formats
+
+---
+
+# License
+
+Licensed under the MIT License.
+
+See the LICENSE file for details.
 
 © 2026 Senila Ranvin
