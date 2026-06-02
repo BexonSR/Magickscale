@@ -43,10 +43,11 @@ Reduce image resolution while preserving quality.
 * Batch processing
 * GPU acceleration support
 
-### Experimental Watermark & Logo Removal
+### Gemini Watermark & Logo Removal
 
+* Remove Gemini AI logo completely
+  
 Attempts to remove:
-
 * Watermarks
 * Logos
 * Embedded image marks
@@ -88,11 +89,9 @@ Apply:
 Convert between popular image formats:
 
 * PNG
-* JPG
 * JPEG
 * WebP
 * AVIF
-* BMP
 
 and more.
 
