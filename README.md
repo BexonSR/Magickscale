@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/github/forks/BexonSR/Magickscale?style=for-the-badge">
   <img src="https://img.shields.io/github/issues/BexonSR/Magickscale?style=for-the-badge">
   <img src="https://img.shields.io/github/license/BexonSR/Magickscale?style=for-the-badge">
+  ![Repo Views](https://komarev.com/ghpvc/?username=BexonSR&repo=Magickscale&style=for-the-badge)
 </p>
 
 
