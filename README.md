@@ -1,7 +1,7 @@
 # MagickScale
 
 <p align="center">
-  <img src="image/Screenshot%20(489)_upscaled_4k_converted.webp" width="100%">
+  <img src="image/magicscale.png" width="100%">
 </p>
 
 <p align="center">
@@ -19,6 +19,9 @@
 MagickScale is an offline desktop image processing toolkit designed for creators, designers, artists, and everyday users. It combines AI-powered image enhancement with practical image utilities inside a modern desktop interface.
 
 Unlike many online tools, MagickScale runs entirely on your machine. No accounts, subscriptions, or cloud uploads are required.
+
+## Demo
+<vid src='image/video_3x.mp4' height 80%></vid>
 
 ## Features
 
