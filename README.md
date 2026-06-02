@@ -1,7 +1,7 @@
 # MagickScale
 
 <p align="center">
-  <img src="image/Screenshot%20(489)_upscaled_4k.png" width="100%">
+  <img src="image/Screenshot%20(489)_upscaled_4k_converted.webp" width="100%">
 </p>
 
 <p align="center">
@@ -227,14 +227,15 @@ During the first launch, MagickScale may download required AI components automat
 On Linux, the application automatically downloads the compatible Real-ESRGAN binary and configures it for use.
 
 ---
+# All images contain in image dir upscaled 4x->downscaled HD->converted to .webp via magickscale
 
 # Screenshots
 
 <p align="center">
-  <img src="image/Screenshot%20(480)_upscaled_4k.png" width="140">
-  <img src="image/Screenshot%20(481)_upscaled_4k.png" width="140">
-  <img src="image/Screenshot%20(482)_upscaled_4k.png" width="140">
-  <img src="image/Screenshot%20(483)_upscaled_4k.png" width="140">
+  <img src="image/Screenshot%20(480)_upscaled_4k_converted.webp" width="140">
+  <img src="image/Screenshot%20(481)_upscaled_4k_converted.webp" width="140">
+  <img src="image/Screenshot%20(482)_upscaled_4k_converted.webp" width="140">
+  <img src="image/Screenshot%20(483)_upscaled_4k_converted.webp" width="140">
 </p>
 
 ---
