@@ -93,14 +93,15 @@ setup_venv() {
 create_run_script() {
     echo -e "${CYAN}${BOLD}[3/4] Creating executable wrapper script (run.sh)...${NC}"
     
-    # Write run.sh file with LF endings
-    with open("run.sh", "w", newline="\n", encoding="utf-8") as rf:
-        rf.write("#!/bin/bash\n")
-        rf.write("# Activate virtual environment and run the app\n")
-        rf.write("SRC_DIR=\"$( cd \"$( dirname \"${BASH_SOURCE[0]}\" )\" && pwd )\"\n")
-        rf.write("cd \"$SRC_DIR\"\n")
-        rf.write("source venv/bin/activate\n")
-        rf.write("python app.py\n")
+    # Write run.sh file using a Bash Here Document (safe and native)
+    cat << 'EOF' > run.sh
+#!/bin/bash
+# Activate virtual environment and run the app
+SRC_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$SRC_DIR"
+source venv/bin/activate
+python app.py
+EOF
 
     chmod +x run.sh
     echo -e "${GREEN}Wrapper script 'run.sh' created!${NC}\n"
@@ -137,10 +138,11 @@ register_alias() {
     # Fish alias
     if [ -d "$HOME/.config/fish" ]; then
         mkdir -p "$HOME/.config/fish/functions"
-        with open(os.path.expanduser("~/.config/fish/functions/magickscale.fish"), "w", newline="\n", encoding="utf-8") as ff:
-            ff.write("function magickscale --description 'Launch MagickScale'\n")
-            ff.write(f"    {run_path} $argv\n")
-            ff.write("end\n")
+        cat << EOF > "$HOME/.config/fish/functions/magickscale.fish"
+function magickscale --description 'Launch MagickScale'
+    $run_path \$argv
+end
+EOF
         echo -e "Registered custom command in ${GREEN}~/.config/fish/functions/magickscale.fish${NC}"
     fi
 
