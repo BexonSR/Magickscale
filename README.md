@@ -20,6 +20,13 @@ MagickScale is an offline desktop image processing toolkit designed for creators
 
 Unlike many online tools, MagickScale runs entirely on your machine. No accounts, subscriptions, or cloud uploads are required.
 
+<p align="center">
+  <img src="https://img.shields.io/github/stars/BexonSR/Magickscale?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/BexonSR/Magickscale?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/BexonSR/Magickscale?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/BexonSR/Magickscale?style=for-the-badge">
+</p>
+
 ## Demo
 <p align="center">
   <a href="https://streamable.com/xlkwr1">
