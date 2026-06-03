@@ -26,6 +26,7 @@
 > **Status:** Beta v1.0.0
 
 MagickScale is an offline desktop image processing toolkit designed for creators, designers, artists, and everyday users. It combines AI-powered image enhancement with practical image utilities inside a modern desktop interface.
+### This work is done by help with AI tools.
 
 Unlike many online tools, MagickScale runs entirely on your machine. No accounts, subscriptions, or cloud uploads are required.
 
